@@ -1,0 +1,176 @@
+img {
+  border: 0;
+  vertical-align: top;
+}
+.wrap {
+  overflow: hidden;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+.wrap .setting {
+  min-height: 375px;
+}
+.wrap .setting .account-area .account-section {
+  background: #fff;
+  position: relative;
+  padding: 12px 10px 0;
+  margin-bottom: 15px;
+  border-radius: 0 0 10px 10px;
+}
+.wrap .setting .account-area .account-section .account-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .setting .account-area .account-section .account-section-title .account-section-title-text {
+  color: #333;
+  font-size: 16px;
+}
+.wrap .setting .account-area .account-section .account-section-list {
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 2px 0 15px 0;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item {
+  background: #fff9f9;
+  height: 90px;
+  padding: 20px 15px 15px;
+  border: 1px solid #ff414e;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 12px;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-item-tip {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1px 10px;
+  background-color: #ffe4e4;
+  color: #e2231a;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo {
+  display: flex;
+  align-items: center;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo .account-useravator {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 10px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo .account-useravator .account-useravator-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo .account-useravator .account-useravator-box .user_avator {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo .account-userdetail .userdetail-main {
+  padding: 4px 0 1px;
+  margin-bottom: 1px;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo .account-userdetail .userdetail-main span {
+  color: #333;
+  margin-right: 5px;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .account-userinfo .account-userdetail .userdetail-append span {
+  color: #333;
+  margin-top: -2px;
+  opacity: 0.7;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .bottom_left_decoration_points {
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  width: 25px;
+  height: 15px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAbAgMAAABD8jTcAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJUExURf/AwEdwTP+8vHLlKlcAAAADdFJOU0cAFwxw2lwAAAA2SURBVBjTY2gKDeMEoQjV0AgFBobQEEYQCmANDWBA46GqDEUCAXTgIdkOcgzCZRg8VJWD1mUA6xFnhdDy+GsAAAAASUVORK5CYII=);
+  background-size: 25px 15px;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .top_right_decoration_points {
+  position: absolute;
+  bottom: 14px;
+  right: 45px;
+  width: 27px;
+  height: 22px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAArBAMAAAAu4Q2VAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURUdwTP/AwP/Bwf/Cwv/Dw//AwP/BwWJVDAsAAAAHdFJOUwBMJQ0ZMj1wWth5AAAA0UlEQVQ4y+WUPQ+CMBCGLwV2ryIzSGSuRJlR4w7BOIsf//8vyL3SlAV0lhue0Ltemjy0R4WmLoqVkNpKWD+EKjLUspEsl7JmDWLnlm/ESLccdwyQVhxJ8cALSvCVoN/jJRjipG6/J409aWcc6USzif1TGICUxY7+y4qvB+L9KfGBE1/3nQY9IcTrT2dFKsWfBelYOnrrv3KrGvCCxQZWz7EtDg1Zt9oWRy/118586sy5hJ86Uo43nZdOn5sJ9mqGP4kfnUOYKHc8J5CumGBZ1dfe/DUg/J1J9I0AAAAASUVORK5CYII=);
+  background-size: 27px 22px;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .top_right_decoration_ring {
+  position: absolute;
+  bottom: 9px;
+  right: 18px;
+  width: 13px;
+  height: 13px;
+  background: transparent;
+  border-radius: 100%;
+  border: 2px solid #ffa9a9;
+  opacity: 0.2;
+}
+.wrap .setting .account-area .account-section .account-section-list .account-item .top_right_decoration_circle {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  bottom: -22px;
+  right: -23px;
+  border-radius: 100%;
+  background-color: #ffa9a9;
+  opacity: 0.2;
+}
+.wrap .setting .action-area .action-section .action-manage {
+  position: relative;
+  margin-bottom: 15px;
+  background: #fff;
+  border-radius: 10px;
+}
+.wrap .setting .action-area .action-section .action-manage li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wrap .setting .action-area .action-section .action-manage li .action-itemto {
+  display: block;
+  position: relative;
+  height: 44px;
+  line-height: 44px;
+  margin-left: 10px;
+  padding-right: 27px;
+  font-size: 16px;
+  color: #333;
+}
+.wrap .setting .action-area .action-section .action-manage li .action-itemto .action-itemto-tip {
+  position: absolute;
+  top: 50%;
+  right: 27px;
+  transform: translateY(-50%);
+  line-height: normal;
+  font-size: 12px;
+  color: #999;
+}
+.wrap .setting .action-area .action-section .action-manage li .action-itemto::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+  width: 12px;
+  height: 12px;
+  background-size: 12px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURczMzEdwTM3NzczMzM3NzczMzMzMzDp2jh0AAAAGdFJOU/wAV+NM2CVM3f4AAABXSURBVBjTYxBEAgzoHGcjJI5ZgiISJ40JwXFIg0qBOEJsUCmwaQpQKTAHJgWxByoF4QClWBAuUEhLxs5BUYZsAIrRyJaiOAfFoWHIXghD9pyrCa4AgQMA7gwdk+IuDLcAAAAASUVORK5CYII=);
+  top: 50%;
+  transform: translateY(-50%);
+}

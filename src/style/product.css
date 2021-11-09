@@ -1,0 +1,263 @@
+.wrap {
+  height: 100%;
+  overflow: hidden;
+  background: #f2f2f2;
+}
+.wrap .product-main .mod-swiper {
+  background: #fff;
+  height: 360px;
+  width: 360px;
+  max-width: 640px;
+  max-height: 640px;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrap .product-main .mod-swiper .mod-swiper-list {
+  height: 100%;
+}
+.wrap .product-main .mod-swiper .mod-swiper-list .mod-swiper-item {
+  height: 360px;
+  width: 360px;
+  transition: all 300ms ease 0s;
+  transform: translate3d(0px, 0px, 0px);
+}
+.wrap .product-main .mod-swiper .mod-swiper-list .mod-swiper-item img {
+  width: 100%;
+  height: 100%;
+}
+.wrap .product-main .product-info {
+  overflow: hidden;
+  background: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.wrap .product-main .product-info .price-wrap {
+  position: relative;
+  margin: 12px 0 0 0;
+  padding: 0 18px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.wrap .product-main .product-info .price-wrap .price-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #f2270c;
+  display: inline-block;
+}
+.wrap .product-main .product-info .price-wrap .price-text em {
+  font-size: 30px;
+}
+.wrap .product-main .product-info .price-wrap .price-text .price-text-mini {
+  font-size: 18px;
+}
+.wrap .product-main .product-info .price-wrap .col-right {
+  float: right;
+  margin: 1px;
+  position: relative;
+}
+.wrap .product-main .product-info .price-wrap .col-right .col-icon-cheaper {
+  font-size: 18px;
+  position: absolute;
+  right: 16px;
+}
+.wrap .product-main .product-info .price-wrap .col-right .col-icon-share {
+  font-size: 24px;
+  position: absolute;
+  right: 13px;
+}
+.wrap .product-main .product-info .price-wrap .col-right .col-info {
+  width: 50px;
+  font-size: 9px;
+  text-align: center;
+  display: inline-block;
+  color: #262626;
+  position: relative;
+  padding-top: 18px;
+}
+.wrap .product-main .product-info .title-wrap {
+  padding: 7px 18px 12px 18px;
+  margin-top: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.wrap .product-main .product-info .title-wrap .title-product-name {
+  font-weight: 700;
+  line-height: 21px;
+  padding-right: 0;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #262626;
+  overflow: hidden;
+  font-size: 16px;
+}
+.wrap .product-main .item-floor {
+  margin-top: 12px;
+  padding: 0 18px;
+  border-radius: 12px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.wrap .product-main .item-floor .icon-list {
+  position: absolute;
+  font-size: 16px;
+  display: inline-block;
+  top: 16px;
+  right: 0;
+}
+.wrap .product-main .item-floor .mod-discount {
+  position: relative;
+  padding: 18px 20px 5px 38px;
+  font-size: 0;
+  color: #333;
+  word-break: break-word;
+  overflow: hidden;
+  font-size: 13px;
+  line-height: 18px;
+}
+.wrap .product-main .item-floor .mod-discount .title {
+  position: absolute;
+  left: 0;
+  top: 18px;
+  color: #262626;
+  font-weight: 700;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_coupon {
+  height: 18px;
+  line-height: 0;
+  overflow: hidden;
+  word-break: break-word;
+  margin-bottom: 12px;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_coupon .coupon {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  margin-right: 6px;
+  padding: 0 6px;
+  border: 1px solid #ff8373;
+  border-radius: 2.5px;
+  height: 15px;
+  color: #f2270c;
+  font-size: 10px;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_coupon .coupon::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  box-sizing: border-box;
+  left: -1px;
+  width: 3px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #ff8373;
+  border-left: none;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_coupon .coupon::after {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #ff8373;
+  border-right: none;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_prom {
+  margin-bottom: 12px;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_prom .prom-item {
+  margin: 0 0 12px 0;
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_prom .prom-item .prom-tag {
+  margin-right: 5px;
+  padding-top: 1px;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_prom .prom-item .prom-tag .prom-tag-bg {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  line-height: normal;
+  margin: 0;
+  position: relative;
+  padding: 0 3px;
+  height: 13px;
+  font-size: 9px;
+  vertical-align: middle;
+  color: #e4393c;
+  background: #fff;
+  border: 1px solid #e4393c;
+  border-radius: 2px;
+}
+.wrap .product-main .item-floor .mod-discount .content .discount_prom .prom-item .prom-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+  display: block;
+  width: 100%;
+  flex: 1;
+}
+.wrap .product-main .item-floor .mod-baitiao {
+  position: relative;
+  padding: 0 0 0 38px;
+  font-size: 13px;
+}
+.wrap .product-main .item-floor .mod-baitiao .title {
+  position: absolute;
+  left: 0;
+  top: 18px;
+  color: #262626;
+  font-weight: 700;
+}
+.wrap .product-main .item-floor .mod-baitiao .baitiao-list {
+  overflow: hidden;
+}
+.wrap .product-main .item-floor .mod-baitiao .baitiao-list .baitiao-item {
+  position: relative;
+  color: #333;
+  padding: 12px 35px 12px 0;
+  margin-top: 6px;
+}
+.wrap .product-main .product-fixbar {
+  position: static;
+  margin-top: 15px;
+  height: 61px;
+  z-index: 1;
+  background: #fff;
+  border-radius: 10px;
+}
+.wrap .product-main .product-fixbar .fixbar {
+  padding-top: 10px;
+}
+.wrap .product-main .product-detail {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  margin-bottom: 56px;
+}
+.wrap .product-main .product-detail .product-content {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.wrap .product-main .product-detail .product-content img {
+  width: 100%;
+}
